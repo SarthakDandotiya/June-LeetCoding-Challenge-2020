@@ -1,5 +1,6 @@
 // Question:
 // Queue Reconstruction by Height
+// *
 
 class CustomComparator implements Comparator<int[]> {
     public int compare(int[] a1, int[] a2) {
@@ -30,5 +31,3 @@ class Solution {
         return result;
     }
 }
-
-// Syntax Help taken

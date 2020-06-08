@@ -1,11 +1,12 @@
 // Question:
 // Two City Scheduling
+// *
 
-class CustomSort implements Comparator<int[]> { 
+class CustomSort implements Comparator<int[]> {
     public int compare(int[] a, int[] b) {
         return Math.abs(b[0] - b[1]) - Math.abs(a[0] - a[1]);
-    } 
-} 
+    }
+}
 
 class Solution {
     public int twoCitySchedCost(int[][] costs) {
